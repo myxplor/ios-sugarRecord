@@ -62,8 +62,6 @@
 		7F0014DAE56FEBE9A77EB8F3 /* Pods_SugarRecord_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4511BDA74E45A8EA0229D9 /* Pods_SugarRecord_Tests.framework */; };
 		9BF9E2C7A1F9D1D232693210 /* Pods_SugarRecord_MacOSExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C31F64CDE7FD4553FC46C1 /* Pods_SugarRecord_MacOSExample.framework */; };
 		A682778445C166ABA1550ECF /* Pods_SugarRecord_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6674BDC2C223325C9246F4 /* Pods_SugarRecord_Example.framework */; };
-		E9824064F609CB4C02C76B65 /* Pods_SugarRecord_ExampleMacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F9F4CFBFCB1137A2C0BBF0 /* Pods_SugarRecord_ExampleMacOS.framework */; };
-		EFB805D2889B4336C9072AB8 /* Pods_MacOSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6ED7D1E3A83450EF0B0BC5 /* Pods_MacOSTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,7 +132,6 @@
 		51C31F64CDE7FD4553FC46C1 /* Pods_SugarRecord_MacOSExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarRecord_MacOSExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DE24CF394C35117CF642A6 /* Pods-SugarRecord_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecord_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecord_Tests/Pods-SugarRecord_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		587F20500BE8B0716DFB56D2 /* Pods-MacOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacOSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacOSTest/Pods-MacOSTest.release.xcconfig"; sourceTree = "<group>"; };
-		5A6ED7D1E3A83450EF0B0BC5 /* Pods_MacOSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacOSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B476131E81A65EF61C0905C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SugarRecord_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarRecord_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,7 +140,6 @@
 		65A181DD622A1F2F3D27044A /* SugarRecord.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SugarRecord.podspec; path = ../SugarRecord.podspec; sourceTree = "<group>"; };
 		7B2B361FEDD2996B9562BBB2 /* Pods-SugarRecord_MacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecord_MacOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecord_MacOSTests/Pods-SugarRecord_MacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8026227C811CCCAE52CFE75A /* Pods-MacOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacOSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacOSTest/Pods-MacOSTest.debug.xcconfig"; sourceTree = "<group>"; };
-		88F9F4CFBFCB1137A2C0BBF0 /* Pods_SugarRecord_ExampleMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarRecord_ExampleMacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C812F114142E61803D9DEF /* Pods-SugarRecord_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecord_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecord_Example/Pods-SugarRecord_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A48C60DE617E4E019B077F5A /* Pods-SugarRecord_MacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecord_MacOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecord_MacOSTests/Pods-SugarRecord_MacOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B12A993BAFFB1BD0E68DDEA2 /* Pods-SugarRecord-MacOSExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecord-MacOSExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecord-MacOSExample/Pods-SugarRecord-MacOSExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,7 +153,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB805D2889B4336C9072AB8 /* Pods_MacOSTest.framework in Frameworks */,
 				0D4B9E0213B3D0246753DDE6 /* Pods_SugarRecord_MacOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +161,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9824064F609CB4C02C76B65 /* Pods_SugarRecord_ExampleMacOS.framework in Frameworks */,
 				9BF9E2C7A1F9D1D232693210 /* Pods_SugarRecord_MacOSExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,8 +653,6 @@
 				4DE9B2AA1F138FDD00B59AEE /* Pods_SugarRecord_Tests.framework */,
 				BB6674BDC2C223325C9246F4 /* Pods_SugarRecord_Example.framework */,
 				DE4511BDA74E45A8EA0229D9 /* Pods_SugarRecord_Tests.framework */,
-				5A6ED7D1E3A83450EF0B0BC5 /* Pods_MacOSTest.framework */,
-				88F9F4CFBFCB1137A2C0BBF0 /* Pods_SugarRecord_ExampleMacOS.framework */,
 				51C31F64CDE7FD4553FC46C1 /* Pods_SugarRecord_MacOSExample.framework */,
 				51050438EF72D11B40A20FA7 /* Pods_SugarRecord_MacOSTests.framework */,
 			);
@@ -679,7 +671,6 @@
 				4DE9B29F1F138FC500B59AEE /* Frameworks */,
 				4DE9B2A01F138FC500B59AEE /* Resources */,
 				04B17ADE8FF538577C6429AD /* [CP] Embed Pods Frameworks */,
-				E204E2D9D429AEED3BCF742C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -700,7 +691,6 @@
 				4DE9B2BD1F13913300B59AEE /* Frameworks */,
 				4DE9B2BE1F13913300B59AEE /* Resources */,
 				04C55B11D074FA429DA32DF3 /* [CP] Embed Pods Frameworks */,
-				5D09BD15B81C22D5B135EB98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -720,7 +710,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				5CC50519DB34147A00106131 /* [CP] Embed Pods Frameworks */,
-				A8B8DCCFD7667D0B80C5AF17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -740,7 +729,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				FE8764C997ACB32CEF47985C /* [CP] Embed Pods Frameworks */,
-				A8EAB62C7C1162F4D92E413F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -764,17 +752,20 @@
 				TargetAttributes = {
 					4DE9B2A11F138FC500B59AEE = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = 55CX6N5J5U;
+						DevelopmentTeam = 9G4QLDC6ZV;
 					};
 					4DE9B2BF1F13913300B59AEE = {
 						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = 9G4QLDC6ZV;
 					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9G4QLDC6ZV;
 						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9G4QLDC6ZV;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -784,6 +775,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -842,13 +834,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SugarRecord_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		04B17ADE8FF538577C6429AD /* [CP] Embed Pods Frameworks */ = {
@@ -857,13 +852,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SugarRecord_MacOSTests/Pods-SugarRecord_MacOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Result-macOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SugarRecord-macOS/SugarRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-macOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs-macOS/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-macOS/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SugarRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord_MacOSTests/Pods-SugarRecord_MacOSTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SugarRecord_MacOSTests/Pods-SugarRecord_MacOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		04C55B11D074FA429DA32DF3 /* [CP] Embed Pods Frameworks */ = {
@@ -872,13 +878,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SugarRecord-MacOSExample/Pods-SugarRecord-MacOSExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Result-macOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-macOS/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SugarRecord-macOS/SugarRecord.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SugarRecord.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord-MacOSExample/Pods-SugarRecord-MacOSExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SugarRecord-MacOSExample/Pods-SugarRecord-MacOSExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0582B3662692EE134120463A /* [CP] Check Pods Manifest.lock */ = {
@@ -887,13 +900,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SugarRecord_MacOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B48A6FF26BA0B58AF134FD3 /* [CP] Check Pods Manifest.lock */ = {
@@ -902,13 +918,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SugarRecord-MacOSExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5CC50519DB34147A00106131 /* [CP] Embed Pods Frameworks */ = {
@@ -917,58 +936,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SugarRecord_Example/Pods-SugarRecord_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Result-iOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit-iOS/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SugarRecord-iOS/SugarRecord.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SugarRecord.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord_Example/Pods-SugarRecord_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D09BD15B81C22D5B135EB98 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord-MacOSExample/Pods-SugarRecord-MacOSExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A8B8DCCFD7667D0B80C5AF17 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord_Example/Pods-SugarRecord_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A8EAB62C7C1162F4D92E413F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord_Tests/Pods-SugarRecord_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SugarRecord_Example/Pods-SugarRecord_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C80BC0F277849B3F17D1036F /* [CP] Check Pods Manifest.lock */ = {
@@ -977,28 +958,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SugarRecord_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E204E2D9D429AEED3BCF742C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord_MacOSTests/Pods-SugarRecord_MacOSTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE8764C997ACB32CEF47985C /* [CP] Embed Pods Frameworks */ = {
@@ -1007,13 +976,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SugarRecord_Tests/Pods-SugarRecord_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Result-iOS/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SugarRecord-iOS/SugarRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs-iOS/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SugarRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecord_Tests/Pods-SugarRecord_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SugarRecord_Tests/Pods-SugarRecord_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1136,10 +1116,10 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 55CX6N5J5U;
+				DEVELOPMENT_TEAM = 9G4QLDC6ZV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -1152,7 +1132,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1171,9 +1151,9 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 55CX6N5J5U;
+				DEVELOPMENT_TEAM = 9G4QLDC6ZV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -1186,7 +1166,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1207,10 +1187,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "SugarRecord-ExampleMacOS/Supporting Files/SugarRecord_ExampleMacOS.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9G4QLDC6ZV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "SugarRecord-ExampleMacOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1219,7 +1199,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1240,9 +1220,9 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = "SugarRecord-ExampleMacOS/Supporting Files/SugarRecord_ExampleMacOS.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9G4QLDC6ZV;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "SugarRecord-ExampleMacOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1251,7 +1231,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1272,7 +1252,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1292,12 +1273,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1318,7 +1300,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1331,10 +1314,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1344,12 +1328,13 @@
 			baseConfigurationReference = 199B6E9AFF9F22F151FCACD5 /* Pods-SugarRecord_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9G4QLDC6ZV;
 				INFOPLIST_FILE = SugarRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1358,12 +1343,13 @@
 			baseConfigurationReference = 92C812F114142E61803D9DEF /* Pods-SugarRecord_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9G4QLDC6ZV;
 				INFOPLIST_FILE = SugarRecord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1371,6 +1357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54DE24CF394C35117CF642A6 /* Pods-SugarRecord_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9G4QLDC6ZV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1383,7 +1370,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1399,7 +1386,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

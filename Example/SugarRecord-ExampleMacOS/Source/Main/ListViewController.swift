@@ -56,7 +56,8 @@ class ListViewController: NSViewController, NSTableViewDelegate, NSTableViewData
     }
     
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
-        if let cell = tableView.make(withIdentifier: "simple_cell", owner: nil) as? NSTableCellView {
+        let identifier = NSUserInterfaceItemIdentifier(rawValue: "simple_cell")
+        if let cell = tableView.makeView(withIdentifier: identifier, owner: nil) as? NSTableCellView {
             cell.textField?.stringValue = entities[row].name ?? ""
             return cell
         }

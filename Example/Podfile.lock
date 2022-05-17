@@ -1,29 +1,29 @@
 PODS:
   - Nimble (5.1.1)
-  - OHHTTPStubs (6.0.0):
-    - OHHTTPStubs/Default (= 6.0.0)
-  - OHHTTPStubs/Core (6.0.0)
-  - OHHTTPStubs/Default (6.0.0):
+  - OHHTTPStubs (9.1.0):
+    - OHHTTPStubs/Default (= 9.1.0)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
     - OHHTTPStubs/Core
     - OHHTTPStubs/JSON
     - OHHTTPStubs/NSURLSession
     - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (6.0.0):
+  - OHHTTPStubs/JSON (9.1.0):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (6.0.0):
+  - OHHTTPStubs/NSURLSession (9.1.0):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (6.0.0)
-  - OHHTTPStubs/Swift (6.0.0):
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
     - OHHTTPStubs/Default
   - Quick (0.10.0)
-  - Result (3.2.1)
-  - SnapKit (3.2.0)
+  - Result (3.2.4)
+  - SnapKit (4.0.1)
   - SugarRecord (3.1.2):
     - SugarRecord/CoreData (= 3.1.2)
-    - SugarRecord/CoreData+iCloud (= 3.1.2)
+    - "SugarRecord/CoreData+iCloud (= 3.1.2)"
   - SugarRecord/CoreData (3.1.2):
     - Result (~> 3.0)
-  - SugarRecord/CoreData+iCloud (3.1.2):
+  - "SugarRecord/CoreData+iCloud (3.1.2)":
     - Result (~> 3.0)
 
 DEPENDENCIES:
@@ -32,22 +32,31 @@ DEPENDENCIES:
   - OHHTTPStubs/Swift
   - Quick (~> 0.10)
   - SnapKit
+  - SnapKit (= 4.0.1)
   - SugarRecord (from `../`)
   - SugarRecord/CoreData (from `../`)
-  - SugarRecord/CoreData+iCloud (from `../`)
+  - "SugarRecord/CoreData+iCloud (from `../`)"
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - OHHTTPStubs
+    - Quick
+    - Result
+    - SnapKit
 
 EXTERNAL SOURCES:
   SugarRecord:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
-  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
-  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
-  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SugarRecord: be6aa5c18b4a4dec0de4c1f49fc61c85eabb5328
 
-PODFILE CHECKSUM: 8f4854ebcb294b575e611ae8266ca5644ad58e63
+PODFILE CHECKSUM: 2900f883e2680df720e2878e68b2bca88b3697a5
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.11.3
